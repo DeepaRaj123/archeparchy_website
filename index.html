@@ -50,7 +50,7 @@
     <li><a href="priests.html">Priests</a></li>
     <li><a href="seminarians.html">Seminarians</a></li>
     <li><a href="institutes.html">Institutes of Consecrated Life & Societies of Apostolic Life</a></li>
-    <li><a href="#">Departments</a></li>
+    <li><a href="departments.html">Departments</a></li>
     <li><a href="#">Missions</a></li>
     <li><a href="#">Saints from the Archeparchy</a></li>
   </ul>
@@ -746,39 +746,35 @@ Changanacherry,</p>
   <script src="assets/js/main.js"></script>
 
 <script>
-  const tabs = document.querySelectorAll(".news-tab");
+document.addEventListener("DOMContentLoaded", function () {
 
-  // Function to enable infinite loop by duplicating items
-  function duplicateItems(list) {
-    const items = list.innerHTML;
-    list.innerHTML = items + items;  // duplicate once for seamless loop
-  }
+    const links = document.querySelectorAll(".dept-link");
+    const contents = document.querySelectorAll(".department-content");
 
-  // Duplicate items for both lists
-  duplicateItems(document.getElementById("diocesan-news"));
-  duplicateItems(document.getElementById("helpdesk-news"));
+    links.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
 
-  // Handle tab switching
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
+            const targetId = this.getAttribute("href");
 
-      // Switch active tab styling
-      document.querySelector(".news-tab.active").classList.remove("active");
-      tab.classList.add("active");
+            // Hide all content sections
+            contents.forEach(section => {
+                section.style.display = "none";
+            });
 
-      // Hide previous list
-      const prev = document.querySelector(".news-list.active");
-      prev.classList.remove("active", "auto-scroll");
+            // Show selected section
+            document.querySelector(targetId).style.display = "block";
 
-      // Show new list
-      const target = document.getElementById(tab.dataset.target);
-      target.classList.add("active", "auto-scroll");
+            // Active menu style
+            links.forEach(l => l.classList.remove("active"));
+            this.classList.add("active");
+        });
     });
-  });
 
-  // Start scroll on first list
-  document.getElementById("diocesan-news").classList.add("auto-scroll");
+});
 </script>
+
+
 
 
 
