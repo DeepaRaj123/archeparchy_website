@@ -45,9 +45,7 @@ body {
   padding: 0;
 }
 
-/* =========================
-   MAIN CONTAINER
-========================= */
+
 .containerPieChart {
   display: flex;
   gap: 20px;
@@ -55,9 +53,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* =========================
-   LEFT LIST
-========================= */
+
 .left {
   flex: 0 0 200px;
 }
@@ -81,10 +77,6 @@ body {
   background: #e3f2fd;
 }
 
-/* =========================
-   RIGHT COLUMN (NEW FEATURE)
-   Chart + Details stacked
-========================= */
 .chart-column {
   flex: 1 1 500px;
   min-width: 280px;
@@ -94,9 +86,6 @@ body {
   
 }
 
-/* =========================
-   PIE CHART
-========================= */
 .chart-column #piechart_3d {
   width: 100%;
   height: 390px;
@@ -104,9 +93,7 @@ body {
   
 }
 
-/* =========================
-   RIGHT DETAILS
-========================= */
+
 .right {
   width: 100%;
   max-width: 260px;
@@ -139,19 +126,17 @@ body {
   }
 }
 
-/* =========================
-   MOBILE (HARD FIX)
-========================= */
+
 @media (max-width: 600px) {
 
-  /* Absolute overflow protection */
+  
   html,
   body {
     width: 100%;
     overflow-x: hidden;
   }
 
-  /* Container safety */
+
   .container {
     width: 100%;
     max-width: 100vw;
@@ -161,7 +146,7 @@ body {
     box-sizing: border-box;
   }
 
-  /* Allow flex shrink */
+
   .left,
   .chart-column,
   .right,
@@ -169,8 +154,7 @@ body {
     min-width: 0 !important;
     max-width: 100%;
   }
-
-  /* Chart hard bound */
+  
   #piechart_3d {
     width: 100%;
     max-width: calc(100vw - 16px);
@@ -184,7 +168,7 @@ body {
     overflow: hidden;
   }
 
-  /* Google Chart SVG FIX */
+  
   #piechart_3d svg {
     width: 100% !important;
     height: 100% !important;
@@ -192,13 +176,13 @@ body {
     overflow: hidden !important;
   }
 
-  /* Detail card full width */
+  
   .right {
     max-width: 100%;
     margin-top: 16px;
   }
 
-  /* Extra safety */
+  
   text {
     max-width: 100%;
   }
@@ -1145,7 +1129,7 @@ function getChartOptions() {
   };
 }
 
-/* 🔹 INIT CHART */
+/*  INIT CHART */
 function initChart() {
   data = google.visualization.arrayToDataTable([
     ['Category', 'Population'],
@@ -1159,22 +1143,22 @@ function initChart() {
 
   chart.draw(data, getChartOptions());
 
-  /* ✅ AUTO CLICK ALWAR */
+  /*  AUTO CLICK ALWAR */
   setTimeout(() => {
     selectDistrict(0);
 
-    /* 🔥 FORCE FULL-SIZE RENDER AFTER AUTO CLICK */
+    /*  FORCE FULL-SIZE RENDER AFTER AUTO CLICK */
     forceRedrawChart();
   }, 300);
 }
 
 
-/* 🔹 EASING */
+/* EASING */
 function easeInOut(t) {
   return t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3)/2;
 }
 
-/* 🔹 ANIMATION */
+/*  ANIMATION */
 function animateDistrictPopulation(index) {
   const d = districts[index];
   const targetChristian = Math.round(d.population * d.christian);
@@ -1216,7 +1200,7 @@ function selectDistrict(index) {
      <b>Non-Christians:</b> ${(d.population - Math.round(d.population * d.christian)).toLocaleString()}🔴`;
 }
 
-/* 🔹 BUILD LIST AFTER DOM LOAD */
+/*  BUILD LIST AFTER DOM LOAD */
 document.addEventListener('DOMContentLoaded', () => {
   const list = document.getElementById('districtList');
   districts.forEach((d, i) => {
@@ -1230,7 +1214,7 @@ document.addEventListener('DOMContentLoaded', () => {
   google.charts.setOnLoadCallback(initChart);
 });
 
-/* 🔹 REDRAW ON RESIZE */
+/*  REDRAW ON RESIZE */
 window.addEventListener('resize', () => {
   if (chart && data) chart.draw(data, getChartOptions());
 });
