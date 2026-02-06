@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Services - Sailor Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!--for pie chart-->
+   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Sailor
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+.containerPieChart {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* =========================
+   LEFT LIST
+========================= */
+.left {
+  flex: 0 0 200px;
+}
+
+.left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left li {
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.left li:hover {
+  background: #e3f2fd;
+}
+
+/* =========================
+   RIGHT COLUMN (NEW FEATURE)
+   Chart + Details stacked
+========================= */
+.chart-column {
+  flex: 1 1 500px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* =========================
+   PIE CHART
+========================= */
+.chart-column #piechart_3d {
+  width: 100%;
+  height: 390px;
+  min-width: 280px;
+  
+}
+
+/* =========================
+   RIGHT DETAILS
+========================= */
+.right {
+  width: 100%;
+  max-width: 260px;
+  margin-left: 0;
+  
+}
+
+#details {
+  font-size: 12px;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 992px) {
+  .left {
+    flex: 0 0 180px;
+  }
+
+  .chart-column {
+    flex: 1 1 100%;
+  }
+
+  .right {
+    max-width: 100%;
+  }
+}
+
+/* =========================
+   MOBILE (HARD FIX)
+========================= */
+@media (max-width: 600px) {
+
+  /* Absolute overflow protection */
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Container safety */
+  .container {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    gap: 12px;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
+  /* Allow flex shrink */
+  .left,
+  .chart-column,
+  .right,
+  #piechart_3d {
+    min-width: 0 !important;
+    max-width: 100%;
+  }
+
+  /* Chart hard bound */
+  #piechart_3d {
+    width: 100%;
+    max-width: calc(100vw - 16px);
+    height: 320px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+  }
+
+  /* Google Chart SVG FIX */
+  #piechart_3d svg {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  /* Detail card full width */
+  .right {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  /* Extra safety */
+  text {
+    max-width: 100%;
+  }
+}
+</style>
+
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top" style="background-color: #a84508;">
+
+
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="administration.html">Archeparchial Administration</a></li>
+      <li><a href="parishes.html">Parishes</a></li>
+      <li><a href="priests.html">Priests</a></li>
+      <li><a href="seminarians.html">Seminarians</a></li>
+      <li><a href="institutes.html">Institutes of Consecrated Life & Societies of Apostolic Life</a></li>
+      <li><a href="departments.html">Departments</a></li>
+      <li><a href="#">Missions</a></li>
+      <li><a href="#">Saints from the Archeparchy</a></li>
+    </ul>
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+  </nav>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">About Us</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Missions</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show mis-link"  href="#features-tab-1">Etawah (1 MAY, 1975)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mis-link"  href="#features-tab-2">Jaipur (02 June, 2015)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mis-link"  href="#features-tab-3"> Virudhunagar (31 May, 2019)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mis-link"  href="#features-tab-4">Foreign Countries </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mis-link"  href="#features-tab-5">Adopted</a>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane tab-content " id="features-tab-1">
+              
+                   <h3>Missions</h3>
+                    <br>
+                    <h5>Etawah (1 MAY, 1975)</h5>
+                     <table class="table table-bordered table-striped mt-3">
+                  
+                  <tbody>
+                     <tr>
+                      <td>Website</td>
+                      <td>www.etawahmission.org</td>
+                    </tr>
+                    <tr>
+                      <td>Gamil</td>
+                      <td>etawahmission1975@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>Heavenly Patron</td>
+                      <td>St. Thomas</td>
+                    </tr>
+                    <tr>
+                      <td>Established</td>
+                      <td>1975 May 1</td>
+                    </tr>
+                    <tr>
+                      <td>Priests</td>
+                      <td>21 </td>
+                    </tr>
+                    <tr>
+                      <td>Seminarians</td>
+                      <td>16</td>
+                    </tr>
+                    <tr>
+                      <td>Area</td>
+                      <td>11360 sq.km   </td>
+                    </tr>
+                    <tr>
+                      <td>Sisters </td>
+                      <td>38 </td>
+                    </tr>
+                    <tr>
+                      <td>Total Population </td>
+                      <td>58.82 Lakh 
+                    </td>
+                    </tr>
+                    <tr>
+                      <td>Convents</td>
+                      <td>14 </td>
+                    </tr>
+                    <tr>
+                      <td>Catholic Population</td>
+                      <td>1000</td>
+                    </tr>
+                    <tr>
+                      <td>Minor Seminary</td>
+                      <td>1 </td>
+                    </tr>
+                    <tr>
+                      <td>Churches & Chapels</td>
+                      <td>15 </td>
+                    </tr>
+                    <tr>
+                      <td>Senior Secondary Schools</td>
+                      <td>9</td>
+                    </tr>
+                    <tr>
+                      <td>Other Schools</td>
+                      <td>3</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              <table class="table table-bordered table-striped mt-3">
+                <tbody>
+                  <tr>
+                    <td><strong>Mission Superior</strong></td>
+                    <td><strong>Contact</strong></td>
+                  </tr>
+                   <tr>
+                    <td>Rev. Fr. Thomas Ezhikad</td>
+                    <td>94118 65219, 93687 08519</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+                <br>
+                                   <p align="justify">Etawah Mission, formerly known as the Agra Mission, is the north Indian missionary
+outreach of the Archeparchy of Changanacherry. Founded in 1975 Etawah Mission was
+a response to a long cherished desire of the Catholic Church in India expressed in the
+CBCI meeting of Kolkata that dioceses and religious congregations from South which
+are rich in vocations may be requested to take up mission territories in North where the
+missions were facing a shortage of personnel. There was also the constant demand of
+the Syro Malabar Church for their right to engage in mission work in North outside its
+territorium proprium.</p>
+                      <p align="justify">As an answer to these twin desires that Most Rev. Dr. Dominic Athaide, then
+Archbishop of Agra offered the Archeparchy of Changanacherry, territories for mission
+work. Mar Antony Padiyara, then Archbishop of Changanacherry himself a missionary
+gladly accepted the invitation and sent his priests and religious to the area entrusted to
+the Archeparchy. Etawah Mission is a unique missionary venture in the history of the
+Missions in India. Perhaps this is the only case of missionary co operation between two
+Archdioceses following two different liturgical traditions - Agra, the Latin tradition and
+Changanacherry, the East Syrian tradition. </p>
+                      <p align="justify">The areas entrusted to our care were very backward and criminal in nature. The pioneer
+missionaries, in consultation with those having experience in the area, felt that education
+will be a very effective means of evangelization. Consequently the educational apostolate
+of the mission was developed. She runs formal and non formal educational institutions
+in the districts entrusted to her care - Etawah, Mainpuri, Farrukhabad, Kannauj, Auraiya
+and Firozabad. The social work organization Samaj Kalyan Samiti, of the mission Etawah
+through various programmes, is actively involved in the social outreach programmes for
+the benefit of the women, children, economically and socially weak villagers, etc., in
+these districts. </p>
+                      <p align="justify">The Mission is in the forefront of ecumenism as we have a very cordial relation with
+the CNI Christian brethren already present in this area. We both share two churches, the
+Christ Church Etawah and All Souls Memorial Church, Fatehgarh for worship witnessing
+to the ecumenical outreach of the mission. Our Etawah and Fatehgarh schools use the
+land taken on lease from the CNI diocese of Agra. Sadbhavana inter religious meetings
+are conducted many times a year to share our mutual faiths.</p>
+                      <p align="justify">The year 2017 witnessed a big development in the ecclesiastical milieu of the Church
+in India. On 9 Oct 2017 Holy Father Pope Francis through “The Letter to the Bishops of
+India” accorded all India Jurisdiction for the Syro Malabar Church fulfilling a long cherished
+desire and demand of the community. According to the apostolic letter all Syro Malabar
+faithful living outside the territories of the present dioceses will now come under the newly
+formed eparchy of Shamsabad in Telangana. Consequently the Syro Malabar faithful of
+Etawah mission also became part of the newly formed diocese.</p>
+<p align="justify">As a result and in continuation of this new development “we have come to an
+agreement that Etawah Mission will be granted administrative, Pastoral and missionary
+autonomy she has hitherto enjoyed under the Archdiocese of Agra and that a written
+agreement will be made between the eparchy of Shamsabad and the archeparchy of
+Changanacherry in this regard in the form of a contract”. (Agreement with Shamsabad,
+p.1). This contract was solemnly signed on 24 February 2018 at Changanacherry and Very
+Rev. Dr. James Palackal was appointed Vicar General of Etawah Mission for Shamsabad
+eparchy. This had a very positive outcome as the agreement stipulates in its clause 5
+that “the above mentioned territories of Etawah Mission may be raised to the dignity of
+an eparchy/exarchy in due course of time”.</p>
+
+<br>
+<div class="table-responsive">
+      <table class="table table-bordered table-striped mt-3 " id="missions1Table">
+    <thead class="table-dark">
+      <tr>
+        <th>Sl No</th>
+        <th>Mission</th>
+        <th>Mission Superior</th>
+        <th>Institutions</th>
+       
+      </tr>
+    </thead>
+    <tbody id="missions1TableBody">
+      <!-- Data populated by JS -->
+    </tbody>
+  </table>
+  </div>
+ <br>
+  <div class="table-responsive">
+    <h3>Religious Congregations in Etawah Mission</h3>
+    <h5>(Congregation & Province)</h5>
+      <table class="table table-bordered table-striped mt-3 table-responsive" id="missions2Table">
+    <thead class="table-dark">
+      <tr>
+        <th>Sl No</th>
+        <th>Congregations</th>
+        <th>Institutions</th>
+       
+      </tr>
+    </thead>
+    <tbody id="missions2TableBody">
+      <!-- Data populated by JS -->
+    </tbody>
+  </table>
+  </div>
+
+  
+
+              </div>
+              
+              
+              <br>
+          
+              </div>
+<div class="tab-content">
+
+  <div class="tab-pane fade" id="features-tab-2">
+
+    
+      <h3>Missions</h3>
+      <br>
+      <h5>Jaipur (02 June, 2015)</h5>
+      
+      <table class="table table-bordered table-striped mt-3">
+        <tbody>
+          <tr><td>Gmail</td><td>smectrajasthan@gmail.com</td></tr>
+          <tr><td>Heavenly Patron</td><td>St. Mary</td></tr>
+          <tr><td>Established</td><td>2015 June 2</td></tr>
+          <tr><td>Priests</td><td>06</td></tr>
+          <tr><td>Area</td><td>12 Districts of Rajasthan</td></tr>
+          <tr><td>Sisters</td><td>04</td></tr>
+          <tr><td>Convents</td><td>01</td></tr>
+          <tr><td>Churches and Mission Centres</td><td>06</td></tr>
+          <tr><td>Prayer House</td><td>01</td></tr>
+        </tbody>
+      </table>
+
+      <table class="table table-bordered table-striped mt-3">
+                <tbody>
+                  <tr>
+                    <td><strong>Vicar General & Mission Superior</strong></td>
+                    <td><strong>Contact</strong></td>
+                  </tr>
+                   <tr>
+                    <td>Very Rev. Dr. James Palackal </td>
+                    <td>86065 98565</td>
+                  </tr>
+                </tbody>
+              </table>
+    
+    <br><br>
+
+    <!-- ✅ ALL TEXT MUST BE INSIDE tab-pane -->
+    <p align="justify">The Church of Christ by her very nature is missionary (AG 2). The Archeparchy of
+Changanacherry has been very faithful to this divine call and the most recent chapter
+in her missionary journey is the opening of the St. Mary's Syro Malabar Mission in the
+state of Rajasthan in the wake of the All India Jurisdiction given to the Syro Malabar
+Church by His Holiness Pope Francis. St. Mary's Syro Malabar Mission in Rajasthan is the
+result of the missionary and pastoral collaboration between the newly erected eparchy of
+Shamshabad, created for missionary work in the rest of India and for the care of migrant
+Syro Malabarians, with the archeparchy of Changanacherry. It is to be specifically placed
+on record that the new St. Mary's mission, comprising the 12 civil districts of Rajasthan
+– Jaipur, Alwar, Bharatpur, Dausa, Dhaulpur, Karuli, Tonk, Sawai Madhopur, Bundi, Kota,
+Baran and Jhalawar – is the fruit of the missionary zeal and genuine ecclesial vision of
+Mar Joseph Perumthottam, Archbishop of Changanacherry Archeparchy. When the offer
+for starting a Syro Malabar mission in the state of Rajasthan was placed by the eparchy
+of Shamshabad, and even before that, it was whole heartedly accepted by Archbishop Joseph Perumthottam. St. Mary's mission in Rajasthan is the second missionary venture
+of the archeparchy of Changanacherry in North India </p>
+    <p align="justify">The official signing of the contract
+between the archeparchy of Changanacherry and the eparchy of Shamshabad took place
+on April 24, 2019, after long and due considerations in respective competent bodies, at
+Mount St. Thomas, Kakkanadu. Mar Joseph Perumthottam of Changanacherry and Mar
+Raphael Thattil of Shamshabad duly signed the contract for their respective Eparchies.
+Very Rev. Dr. James Palackal of the Archeparchy of Changanacherry was appointed
+Vicar General of the Etawah and Jaipur missions by His Excellency Mar Raphel Thattil
+and the Mission Superior of Jaipur mission by His Grace Mar Joseph Perumthottam. </p>
+    <p align="justify">Provision of All India Jurisdiction to the Syro Malabar Church, the establishment of
+the eparchy of Shamshabad, meritorious leadership and ardent love of His Grace Mar
+Joseph Perumthottam for the Syro Malabar migrants and the zealous contributions and
+effective interventions of Mar Raphel Thattil paved the way for the beginning of the
+St. Mary's mission, also known as Jaipur mission, in Rajasthan. Nonetheless, even before
+the establishment of the eparchy of Shamshabad in 2018, at the repeated requests of
+the migrant Syro Malabar faithful in Jaipur, Mar Joseph Perumthottam decided to send
+a priest to look after the spiritual and pastoral needs of the migrant Syro Malabar faithful
+in Jaipur. Accordingly, Rev. Fr. Sebastian Souriamakil came to Jaipur on June 2, 2015</p>
+    <p align="justify">Fr. Sebastian was able to form a Syro Malabar community in the city of Jaipur with the
+name Syro Malabar Holy Family Mission. Fr. Sebastian Souriamakil served the mission
+for one year and seven months and left for Saudi Arabia for pastoral work. Then, Rev. Fr.
+Melvin Pallikizhakethil from the Etawah mission served this mission from February 1, 2017
+to November 13, 2017. Rev. Fr. Paul Peediyekkal was appointed priest in charge of the
+Jaipur mission on November 13, 2017. After that, Fr. Varghese Punnakalayil, Fr. Joseph
+Pulickaparampil, Fr. Philip Moozhikunnel and Fr. George Mannumadom were also appointed
+in the mission. On 20 February 2022 Holy Family Syro Malabar Church was consecreted. </p>
+
+<br><br>
+
+    <div class="containerPieChart">
+      <div class="left">
+        <ul id="districtList"></ul>
+      </div>
+     
+      <div class="chart-column">
+      <h5 id="districtName" style="text-align: center;">Select a District</h5>
+
+        <div id="piechart_3d"></div>
+      
+      
+      <div class="right">
+        <div id="details">
+          <p id="districtDetails">Click a district to see details</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+
+
+<div class="table-responsive">
+      <table class="table table-bordered table-striped mt-3 " id="missions3Table">
+    <thead class="table-dark">
+      <tr>
+        <th>Sl No</th>
+        <th>Mission</th>
+        <th>Mission Superior</th>
+        <th>Institutions</th>
+       
+      </tr>
+    </thead>
+    <tbody id="missions3TableBody">
+      <!-- Data populated by JS -->
+    </tbody>
+  </table>
+  </div>
+
+
+  </div>
+</div>
+<div class="tab-content">
+
+  <div class="tab-pane fade" id="features-tab-3">
+
+  <h3>Missions</h3>
+                <br>
+                <h5>Virudhunagar (31 May, 2019)</h5><br>
+                <p align="justify">     The territorial jurisdiction of the eparchy of Changanacherry got extended from the
+                  Pampa River in the State of Kerala to the South upto Kanyakumari in the State of Tamil
+                  Nadu on April 29, 1955 by Pope Pius XII with the papal Bull, Multorum Fidelium. With this
+                  extension from 1960 onwards many young priests, religious and laity of the Archeparchy
+                  Archeparchy of Changanacherry 401 DIRECTORY 2021-22
+                  volunteered to devote themselves in the evangelization works in Kanyakumari Mission
+                  sharing the Gospel among the local people and forming them in the liturgy and spirituality
+                  of the Syro Malabar Church. This Mission made tremendous growth due to the apostolic
+                  zeal and enthusiasm of its pioneer missionaries. As a result, on November 11, 1996
+                  Archeparchy of Changanacherry was bifurcated establishing Eparchy of Thuckalay, by the
+                  papal Bull Apud Indorum, which encompasses the whole of Kanyakumari Mission. Again,
+                  on October 10, 2017 Pope Francis extended the territory of the Eparchy of Thuckalay
+                  comprising 9 civil districts namely, Kanyakumari, Tirunelveli, Thoothukudi, Virudhunagar,
+                  Theni, Thenkasi, Madurai, Sivagangai and Ramanathapuram (above 30000 sq/kms). After
+                  having many Inter Eparchial meetings on mission itself, as per invitation from the Bishop
+                  of Thuckalay, the Archeparchy of Changanacherry decided to undertake Virudhunagar
+                  Mission and sent Rev. Fr. Peter Kizhakkeyil, a missionary priest of this Archeparchy, to
+                  the new mission land. This new mission was inaugurated on May 30, 2019, on the Feast
+                  of the Ascension of Jesus Christ. O. Kovilpatti and Inam Rettiapatti are the new mission
+                  stations. Rev. Fr. Joseph Keeranchira was appointed in 2022. On 03 April 2022 St. Joseph
+                  Syro Malabar Catholic Church was consecrated.
+                </p>
+                <h5><strong>Mission Stations</strong></h5>
+                <ul>
+                  <li>Kovilpatti, St. Joseph's Mission, Melachinnayapuram</li>
+                  <li>Inam Rettiapatti</li>
+                </ul>
+              
+                </div>
+              </div>
+
+              <div class="tab-content">
+
+  <div class="tab-pane fade" id="features-tab-4">
+
+  <h3>Missions</h3>
+                <br>
+                <h5> Foreign Countries</h5>
+                <p>Services of our Rev. Priests in Foreign Countries</p>
+                <table class="table table-bordered table-striped mt-3">
+
+                  <tbody>
+                    <tr>
+                      <td>Australia</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>Austria</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>Canada</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>Germany</td>
+                      <td>20</td>
+                    </tr>
+                    <tr>
+                      <td>Italy</td>
+                      <td>17</td>
+                    </tr>
+                    <tr>
+                      <td>Malta </td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>Ireland</td>
+                      <td>02 </td>
+                    </tr>
+                    <tr>
+                      <td>Romania</td>
+                      <td>01 </td>
+                    </tr>
+                    <tr>
+                      <td>South Africa</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>Spain</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>Switzerland</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>UK</td>
+                      <td>05</td>
+                    </tr>
+                    <tr>
+                      <td> USA </td>
+                      <td>01</td>
+                    </tr>
+                  </tbody>
+                  </table>
+
+  
+  </div>
+  </div>
+
+
+  <div class="tab-content">
+
+  <div class="tab-pane fade" id="features-tab-5">
+
+<div class="table-responsive">
+
+  <h3>Missions</h3>
+                <br>
+                <h5> Adopted</h5>
+                <table class="table table-bordered table-striped mt-3">
+
+                  <tbody>
+                    <tr>
+                      <td>Diocese of Jagdalpur</td>
+                      <td>07782 228293</td>
+                    </tr>
+                    <tr>
+                      <td>Lal - Bagh, Jagdalpur P.O.</td>
+                      <td>(P) 07782 228307</td>
+                    </tr>
+                    <tr>
+                      <td>Bastar Dist., Chhattisgarh 494 001</td>
+                      <td>(Secretary) 78799 52543</td>
+                    </tr>
+                    
+                  </tbody>
+                  </table>
+</div></div></div>
+
+              </div>
+             
+             
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Archeparchy of Changanassery</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Archbishop’s House
+Changanacherry,</p>
+            <p> Kerala, India</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>0481 2420040, 2420379, 2420614</span></p>
+            <p><strong>Email:</strong> <span>info@archchanganacherry.org</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="administration.html">Administration</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Associations</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Help Center</h4>
+          <ul>
+            <li><a href="#">KCBC</a></li>
+            <li><a href="#">Syro Malabar</a></li>
+            <li><a href="#">Syro Malankara</a></li>
+            <li><a href="#">Latin Hierarchy</a></li>
+            <li><a href="#">CARP</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Subscribe to Madhyasthan</h4>
+          <p>Stay updated with the latest news, events, and spiritual reflections.</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Archeparchy of Changanassery</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Developed by <a href="https://adsofttechnologies.com/">AD Soft Technologies</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <!--Page loading-->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const tabs = document.querySelectorAll(".mis-link");
+  const panes = document.querySelectorAll(".tab-pane");
+
+  // 🔒 Hide all panes initially
+  panes.forEach(pane => {
+    pane.style.display = "none";
+    pane.classList.remove("show", "active");
+  });
+
+  // 🔒 Remove active from all links
+  tabs.forEach(tab => tab.classList.remove("active"));
+
+  // ✅ Show default tab (features-tab-1)
+  const defaultTab = document.querySelector('.mis-link[href="#features-tab-1"]');
+  const defaultPane = document.getElementById("features-tab-1");
+
+  if (defaultTab && defaultPane) {
+    defaultTab.classList.add("active");
+    defaultPane.style.display = "block";
+    defaultPane.classList.add("show", "active");
+  }
+
+  // 🔁 Handle tab click
+  tabs.forEach(tab => {
+    tab.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute("href").substring(1);
+      const targetPane = document.getElementById(targetId);
+
+      // Hide all panes
+      panes.forEach(pane => {
+        pane.style.display = "none";
+        pane.classList.remove("show", "active");
+      });
+
+      // Remove active from all links
+      tabs.forEach(t => t.classList.remove("active"));
+
+      // Show selected pane
+      this.classList.add("active");
+      if (targetPane) {
+        targetPane.style.display = "block";
+        targetPane.classList.add("show", "active");
+      }
+    });
+  });
+});
+</script>
+
+
+
+   
+
+  <!--Data Fetching -->
+
+<script>
+let missiondata1 = [];
+let missiondata2 = [];
+let missiondata3 = [];
+
+// FETCH MISSIONS JSON
+fetch('missions.json')
+  .then(res => res.json())
+  .then(data => {
+    missiondata1 = data.missions || [];
+    missiondata2 = data.congregations || [];
+    missiondata3 = data.congregations2 || [];
+    displayMissions();
+    displayMissions2();
+    displayMissions3();
+
+  });
+
+// DISPLAY MISSIONS
+function displayMissions() {
+  const tbody = document.getElementById("missions1TableBody");
+  tbody.innerHTML = "";
+
+  missiondata1.forEach((mission, i) => {
+    tbody.innerHTML += createMissionRow(mission, i + 1);
+  });
+}
+
+function displayMissions2() {
+  const tbody = document.getElementById("missions2TableBody");
+  tbody.innerHTML = "";
+
+  missiondata2.forEach((congregation, i) => {
+    tbody.innerHTML += createCongregationRow(congregation, i + 1);
+  });
+} 
+
+function displayMissions3(){
+  const tbody = document.getElementById("missions3TableBody");
+  tbody.innerHTML = "";
+  missiondata3.forEach((mission, i)=>{
+    tbody.innerHTML += createCongregationRow2(mission, i + 1);
+  });
+}
+
+// ROW BUILDER FOR MISSIONS
+function createMissionRow(mission, slno) {
+
+  /* -------- MISSION COLUMN -------- */
+  const missionHTML = `
+    <strong>${mission.mission_name || "-"}</strong><br>
+    ${mission.location?.address || "-"}<br>
+    ${mission.location?.state || "-"}<br>
+    Pin: ${mission.location?.pin_code || "-"}<br>
+    Established: ${mission.year_established || "-"}<br>
+    Phone: ${
+      mission.contact?.phone
+        ? mission.contact.phone.join(", ")
+        : "-"
+    }
+  `;
+
+  /* -------- MISSION SUPERIOR / PERSONNEL -------- */
+  let superiorHTML = "-";
+  if (mission.personnel && mission.personnel.length) {
+    superiorHTML = "";
+    mission.personnel.forEach(person => {
+      superiorHTML += `
+        <strong>${person.name}</strong><br>
+        "Phone :  ${person.mobile ? person.mobile.join(", ") :"Phone: -"}<br><br>
+      `;
+    });
+  }
+
+  /* -------- INSTITUTIONS -------- */
+  let institutionsHTML = "-";
+  if (mission.institutions_under_mission && mission.institutions_under_mission.length) {
+    institutionsHTML = "";
+    mission.institutions_under_mission.forEach(inst => {
+      institutionsHTML += `
+        <strong>${inst.name}</strong><br>
+        ${
+          inst.contact?.phone
+            ? "Phone: " + inst.contact.phone.join(", ") + "<br>"
+            : "Phone: -<br>"
+        }
+        ${
+          inst.contact?.email
+            ? "Email: <a href='mailto:" + inst.contact.email + "'>" + inst.contact.email + "</a><br>"
+            : "Email: -<br>"
+        }
+        <br>
+      `;
+    });
+  }
+
+  return `
+    <tr>
+      <td>${slno}</td>
+      <td>${missionHTML}</td>
+      <td>${superiorHTML}</td>
+      <td>${institutionsHTML}</td>
+    </tr>
+  `;
+}
+
+function createCongregationRow(congregation, slno) {
+
+  /* -------- CONGREGATION COLUMN -------- */
+  const congregationHTML = `
+    <strong>${congregation.congregation_name || "-"}</strong><br>
+    ${congregation.province || "-"}<br>
+
+  `;
+
+  /* -------- CONGREGATION SUPERIOR / PERSONNEL -------- */
+  let superiorHTML = "-";
+  if (congregation.personnel && congregation.personnel.length) {
+    superiorHTML = "";
+    congregation.personnel.forEach(person => {
+      superiorHTML += `
+        <strong>${person.name}</strong><br>
+        "Phone :  ${person.mobile ? person.mobile.join(", ") :"Phone: -"}<br><br>
+      `;
+    });
+  }
+
+  /* -------- INSTITUTIONS -------- */
+  let institutionsHTML = "-";
+  if (congregation.institutions && congregation.institutions.length) {
+    institutionsHTML = "";
+    congregation.institutions.forEach(inst => {
+      institutionsHTML += `
+        <strong>${inst.name}</strong><br>
+        ${
+          inst.contact?.mobile
+            ? "Phone: " + inst.contact.mobile?.join(", ") + "<br>"
+            : "Phone: -<br>"
+        }
+        ${
+          inst.contact?.email
+            ? "Email: <a href='mailto:" + inst.contact.email + "'>" + inst.contact.email + "</a><br>"
+            : "Email: -<br>"
+        }
+        <br>
+      `;
+    });
+  }
+
+  return `
+    <tr>
+      <td>${slno}</td>
+      <td>${congregationHTML}</td>
+      <td>${institutionsHTML}</td>
+    </tr>
+  `;
+}
+
+function createCongregationRow2(mission, slno) {
+
+  /* -------- MISSION COLUMN -------- */
+  const missionHTML = `
+    <strong>${mission.mission_name || "-"}</strong><br>
+    ${mission.location?.address || "-"}<br>
+    ${mission.location?.state || "-"}<br>
+    Pin: ${mission.location?.pin_code || "-"}<br>
+    Established: ${mission.year_established || "-"}<br>
+    Phone: ${
+      mission.contact?.phone
+        ? mission.contact.phone.join(", ")
+        : "-"
+    }
+  `;
+
+  /* -------- MISSION SUPERIOR / PERSONNEL -------- */
+  let superiorHTML = "-";
+  if (mission.personnel && mission.personnel.length) {
+    superiorHTML = "";
+    mission.personnel.forEach(person => {
+      superiorHTML += `
+        <strong>${person.name}</strong><br>
+        Phone :  ${person.mobile ? person.mobile.join(", ") :"Phone: -"}<br><br>
+      `;
+    });
+  }
+
+  /* -------- INSTITUTIONS -------- */
+  let institutionsHTML = "-";
+  if (mission.institutions_under_mission && mission.institutions_under_mission.length) {
+    institutionsHTML = "";
+    mission.institutions_under_mission.forEach(inst => {
+      institutionsHTML += `
+        <strong>${inst.name}</strong><br>
+        ${
+          inst.contact?.phone
+            ? "Phone: " + inst.contact.phone.join(", ") + "<br>"
+            : "Phone: -<br>"
+        }
+        ${
+          inst.contact?.email
+            ? "Email: <a href='mailto:" + inst.contact.email + "'>" + inst.contact.email + "</a><br>"
+            : "Email: -<br>"
+        }
+        <br>
+      `;
+    });
+  }
+
+  return `
+    <tr>
+      <td>${slno}</td>
+      <td>${missionHTML}</td>
+      <td>${superiorHTML}</td>
+      <td>${institutionsHTML}</td>
+    </tr>
+  `;
+}
+
+
+
+</script>
+
+
+<!--pie chart js-->
+
+<script type="text/javascript">
+const districts = [
+  { name: "Alwar", area: 8380, population: 3671999, christian: 0.07 },
+  { name: "Baran", area: 6955, population: 1223921, christian: 0.12 },
+  { name: "Bharatpur", area: 5066, population: 2549121, christian: 0.06 },
+  { name: "Bundi", area: 5550, population: 1113725, christian: 0.06 },
+  { name: "Dausa", area: 3432, population: 1637226, christian: 0.03 },
+  { name: "Dholpur", area: 3033, population: 1207293, christian: 0.06 },
+  { name: "Jaipur", area: 14068, population: 6663971, christian: 0.19 },
+  { name: "Jhalawar", area: 6219, population: 1411327, christian: 0.06 },
+  { name: "Karauli", area: 5530, population: 1458459, christian: 0.04 },
+  { name: "Kota", area: 5446, population: 1950491, christian: 0.42 },
+  { name: "Sawai Madhopur", area: 10527, population: 1338114, christian: 0.07 },
+  { name: "Tonk", area: 7194, population: 1421711, christian: 0.05 }
+];
+
+let chart, data;
+
+/* 🔹 RESPONSIVE OPTIONS */
+function getChartOptions() {
+  const isMobile = window.innerWidth ;
+  return {
+    is3D: true,
+    legend: 'none',
+    chartArea: {
+      width: isMobile ? '95%' : '85%',
+      height: isMobile ? '70%' : '85%'
+    },
+    animation: { duration: 800, easing: 'out' }
+  };
+}
+
+/* 🔹 INIT CHART */
+function initChart() {
+  data = google.visualization.arrayToDataTable([
+    ['Category', 'Population'],
+    ['Christian', 1200],
+    ['Non-Christian', 800]
+  ]);
+
+  chart = new google.visualization.PieChart(
+    document.getElementById('piechart_3d')
+  );
+
+  chart.draw(data, getChartOptions());
+
+  /* ✅ AUTO CLICK ALWAR */
+  setTimeout(() => {
+    selectDistrict(0);
+
+    /* 🔥 FORCE FULL-SIZE RENDER AFTER AUTO CLICK */
+    forceRedrawChart();
+  }, 300);
+}
+
+
+/* 🔹 EASING */
+function easeInOut(t) {
+  return t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3)/2;
+}
+
+/* 🔹 ANIMATION */
+function animateDistrictPopulation(index) {
+  const d = districts[index];
+  const targetChristian = Math.round(d.population * d.christian);
+  const targetNonChristian = d.population - targetChristian;
+
+  const startChristian = data.getValue(0,1);
+  const startNonChristian = data.getValue(1,1);
+
+  let frame = 0;
+  const frames = 60;
+
+  const anim = setInterval(() => {
+    frame++;
+    const eased = easeInOut(frame / frames);
+
+    data.setValue(0,1,
+      startChristian + (targetChristian - startChristian) * eased
+    );
+    data.setValue(1,1,
+      startNonChristian + (targetNonChristian - startNonChristian) * eased
+    );
+
+    chart.draw(data, getChartOptions());
+    if (frame >= frames) clearInterval(anim);
+    forceRedrawChart();
+  }, 30);
+}
+
+/* 🔹 SELECT DISTRICT */
+function selectDistrict(index) {
+  const d = districts[index];
+  animateDistrictPopulation(index);
+
+  document.getElementById('districtName').innerText = d.name;
+  document.getElementById('districtDetails').innerHTML =
+    `<b> Area:</b> ${d.area} Sq Km<br>
+     <b> Total Population:</b> ${d.population.toLocaleString()}<br>
+     <b>Christians:</b> ${Math.round(d.population * d.christian).toLocaleString()}🔵<br>
+     <b>Non-Christians:</b> ${(d.population - Math.round(d.population * d.christian)).toLocaleString()}🔴`;
+}
+
+/* 🔹 BUILD LIST AFTER DOM LOAD */
+document.addEventListener('DOMContentLoaded', () => {
+  const list = document.getElementById('districtList');
+  districts.forEach((d, i) => {
+    const li = document.createElement('li');
+    li.textContent = d.name;
+    li.onclick = () => selectDistrict(i);
+    list.appendChild(li);
+  });
+
+  google.charts.load('current', { packages: ['corechart'] });
+  google.charts.setOnLoadCallback(initChart);
+});
+
+/* 🔹 REDRAW ON RESIZE */
+window.addEventListener('resize', () => {
+  if (chart && data) chart.draw(data, getChartOptions());
+});
+
+
+function forceRedrawChart() {
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      if (chart && data) {
+        chart.draw(data, getChartOptions());
+      }
+    }, 100);
+  });
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
