@@ -835,16 +835,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const tabs = document.querySelectorAll(".mis-link");
   const panes = document.querySelectorAll(".tab-pane");
 
-  // 🔒 Hide all panes initially
+  //  Hide all panes initially
   panes.forEach(pane => {
     pane.style.display = "none";
     pane.classList.remove("show", "active");
   });
 
-  // 🔒 Remove active from all links
+  //  Remove active from all links
   tabs.forEach(tab => tab.classList.remove("active"));
 
-  // ✅ Show default tab (features-tab-1)
+  //  Show default tab (features-tab-1)
   const defaultTab = document.querySelector('.mis-link[href="#features-tab-1"]');
   const defaultPane = document.getElementById("features-tab-1");
 
@@ -854,7 +854,7 @@ document.addEventListener("DOMContentLoaded", function () {
     defaultPane.classList.add("show", "active");
   }
 
-  // 🔁 Handle tab click
+  //  Handle tab click
   tabs.forEach(tab => {
     tab.addEventListener("click", function (e) {
       e.preventDefault();
@@ -957,7 +957,7 @@ function createMissionRow(mission, slno) {
     mission.personnel.forEach(person => {
       superiorHTML += `
         <strong>${person.name}</strong><br>
-        "Phone :  ${person.mobile ? person.mobile.join(", ") :"Phone: -"}<br><br>
+        Phone :  ${person.mobile ? person.mobile.join(", ") :"Phone: -"}<br><br>
       `;
     });
   }
