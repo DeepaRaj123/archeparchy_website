@@ -1,0 +1,2129 @@
+{
+
+"CBCI":[
+  {
+    "id": 1,
+    "committee_name": "Doctrine",
+    "chairman": "Thomas Mar Koorilos",
+    "members": [
+      "Mar Joseph Pamplany",
+      "Most Rev. Albert D’souza"
+    ],
+    "secretary": "Rev. Fr. Thomas Vadakkel"
+  },
+  {
+    "id": 2,
+    "committee_name": "Clergy and Religious",
+    "chairman": "Most Rev. Anil Joseph Thomas Couto",
+    "members": [
+      "Most Rev. Francis Serrao SJ",
+      "Mar Sebastian Adayanthrath"
+    ],
+    "secretary": "Rev. Fr. Gratian Carlo SJ"
+  },
+  {
+    "id": 3,
+    "committee_name": "Dialogue and Desk Ecumenism",
+    "chairman": "Mar Joseph Perumthottam",
+    "members": [
+      "Most Rev. Raphy Manjaly",
+      "Most Rev. Thomas Dabre"
+    ],
+    "secretary": "Rev. Fr. Cherian Karukaparambil"
+  },
+  {
+    "id": 4,
+    "committee_name": "Education and Culture",
+    "chairman": "Most Rev. Thomas D'souza",
+    "members": [
+      "Mar Andrews Thazhath",
+      "Most Rev. John Moolachira"
+    ],
+    "secretary": "Rev. Fr. Maria Charles Antonysamy SDB"
+  },
+  {
+    "id": 5,
+    "committee_name": "Health Care",
+    "chairman": "Most Rev. Prakash Mallavarapu",
+    "members": [
+      "Most Rev. Felix Toppo SJ",
+      "Most Rev. Jacob Manathodath"
+    ],
+    "secretary": "Rev. Fr. Julius Arakkal CMI"
+  },
+  {
+    "id": 6,
+    "committee_name": "Justice, Peace and Development (JPD)",
+    "chairman": "Most Rev. Gerald Almeida",
+    "members": [
+      "Most Rev. Allwyn D'silva",
+      "Most Rev. Gerald Isaac Lobo"
+    ],
+    "secretary": "Rev. Fr. Stephen Fernandes"
+  },
+  {
+    "id": 7,
+    "committee_name": "Labour",
+    "chairman": "Most Rev. Alex Vadakumthala",
+    "members": [
+      "Mar Jose Chittooparambil CMI",
+      "Most Rev. Nazarene Soosai"
+    ],
+    "secretary": "Msgr Eugene Hilary Pereira"
+  },
+  {
+    "id": 8,
+    "committee_name": "Tribal Affairs",
+    "chairman": "Most Rev. Vincent Barwa",
+    "members": [
+      "Most Rev. Michael Akasius Toppo",
+      "Most Rev. Paul Toppo"
+    ],
+    "secretary": "Rev. Fr. Nicholas Barla SVD"
+  },
+  {
+    "id": 9,
+    "committee_name": "Scheduled Castes / Backward Classes",
+    "chairman": "Most Rev. Sarat Chandra Nayak",
+    "members": [
+      "Most Rev. Moses D. Prakasam"
+    ],
+    "secretary": "Rev. Fr. Vijay Kumar Nayak CM"
+  },
+  {
+    "id": 10,
+    "committee_name": "Social Communications",
+    "chairman": "Most Rev. Salvadore Lobo",
+    "members": [
+      "Most Rev. Sebastian Kallupura",
+      "Most Rev. Anthony Poola"
+    ],
+    "secretary": "Rev. Fr. Varaprasad Marneni"
+  },
+  {
+    "id": 11,
+    "committee_name": "Laity",
+    "chairman": "Mar Mathew Arackal",
+    "members": [
+      "Joshua Mar Ignathios",
+      "Most Rev. Gerald John Mathias"
+    ],
+    "secretary": "Chevalier Adv. VC Sebastian Valliamthadathil"
+  },
+  {
+    "id": 12,
+    "committee_name": "Women",
+    "chairman": "",
+    "members": [
+      "Mar Mathew Arackal",
+      "Most Rev. Francis Kalist"
+    ],
+    "secretary": "Rev. Sr. Navya FCC"
+  },
+  {
+    "id": 13,
+    "committee_name": "Youth",
+    "chairman": "Most Rev. Nazarene Soosai",
+    "members": [
+      "Vincent Mar Paulos",
+      "Mar Joseph Pandarasseril"
+    ],
+    "secretary": "Rev. Fr. Chetan Machado"
+  }
+],
+
+
+
+"KCBC": [
+  {
+    "id": 1,
+    "commission_name": "POC Commission",
+    "chairman": "His Beatitude Cardinal Mar George Alencherry",
+    "vice_chairmen": [
+      "His Excellency Rt. Rev. Dr. Varghese Chakkalakal",
+      "His Excellency Dr. Joseph Mar Thomas"
+    ],
+    "secretary": "Rev. Fr. Jacob G Palackappilly"
+  },
+  {
+    "id": 2,
+    "commission_name": "Commission for Religious",
+    "chairman": "Most Rev. Dr. Varghese Chakkalackal",
+    "vice_chairmen": [
+      "Mar Mathew Moolakkatt",
+      "Mar Antony Kariyil"
+    ],
+    "secretary": "Rev. Fr. Sebastian Jecobi OSJ"
+  },
+  {
+    "id": 3,
+    "commission_name": "Bible Commission",
+    "chairman": "Most Rev. Dr. James Anaparambil",
+    "vice_chairmen": [
+      "Mar Jacob Manathodath",
+      "Thomas Mar Eusebius"
+    ],
+    "secretary": "Rev. Fr. Johnson Puthussery CST"
+  },
+  {
+    "id": 4,
+    "commission_name": "Doctrinal Commission",
+    "chairman": "Mar Tony Neelankavil",
+    "vice_chairmen": [
+      "Most Rev. Dr. James Anaparambil",
+      "Mar George Madathikandathil"
+    ],
+    "secretary": "Rev. Fr. Stanley Mathirappilly"
+  },
+  {
+    "id": 5,
+    "commission_name": "Media Commission",
+    "chairman": "Mar Joseph Pamplany",
+    "vice_chairmen": [
+      "Mar Pauly Kannookadan",
+      "Thomas Mar Eusebius"
+    ],
+    "secretary": "Rev. Dr. Cibu Irimbinikal"
+  },
+  {
+    "id": 6,
+    "commission_name": "Family Commission",
+    "chairman": "Most Rev. Paul Antony Mullassery",
+    "vice_chairmen": [
+      "Joshua Mar Ignathios",
+      "Mar Sebastian Vaniyapurackal"
+    ],
+    "secretary": "Rev. Fr. Paulson Simethy"
+  },
+  {
+    "id": 7,
+    "commission_name": "Laity Commission",
+    "chairman": "Mar George Madathikandathil",
+    "vice_chairmen": [
+      "Most Rev. Joseph Karikkassery",
+      "Most Rev. Paul Antony Mullassery"
+    ],
+    "secretary": "Mr. PK Joseph"
+  },
+  {
+    "id": 8,
+    "commission_name": "Women's Commission",
+    "chairman": "Most Rev. Dr. Joseph Karikkassery",
+    "vice_chairmen": [
+      "Most Rev. Dr. Vincent Samuel",
+      "Mar Thomas Tharayil"
+    ],
+    "secretary": "Ms. Jane Ancil Francis"
+  },
+  {
+    "id": 9,
+    "commission_name": "Education Commission",
+    "chairman": "Joshua Mar Ignathios",
+    "vice_chairmen": [
+      "Mar Antony Kariyil",
+      "Most Rev. Dr. Paul Antony Mullassery"
+    ],
+    "secretary": "Rev. Fr. Charles Leon"
+  },
+  {
+    "id": 10,
+    "commission_name": "Social Harmony & Vigilance Commission",
+    "chairman": "Most Rev. Dr. Joseph Kariyil",
+    "vice_chairmen": [
+      "Mar Andrews Thazhath",
+      "Mar Pauly Kannookadan"
+    ],
+    "secretary": "Rev. Fr. Michel Pulickal"
+  },
+  {
+    "id": 11,
+    "commission_name": "Commission for Youth",
+    "chairman": "Most Rev. Dr. Christudas R",
+    "vice_chairmen": [
+      "Yoohanon Mar Theodocious",
+      "Mar John Nellikunnel"
+    ],
+    "secretary": "Rev. Fr. Stephen Thomas Chalakara"
+  },
+  {
+    "id": 12,
+    "commission_name": "Commission for Labour & Migrants (Kerala Labour Movement - KLM)",
+    "chairman": "Most Rev. Dr. Alex Vadakkumthala",
+    "vice_chairmen": [
+      "Mar Joseph Porunnedom",
+      "Thomas Mar Eusebius"
+    ],
+    "secretary": "Rev. Fr. Prasad Kandathiparambil"
+  },
+  {
+    "id": 13,
+    "commission_name": "Justice Peace & Development Commission",
+    "chairman": "Mar Jose Pulickal",
+    "vice_chairmen": [
+      "Most Rev. Dr. Joseph Kalathiparambil",
+      "Thomas Mar Eusebius"
+    ],
+    "secretary": "Rev. Fr. Jacob Mavunkal"
+  },
+  {
+    "id": 14,
+    "commission_name": "SC/ST/BC Commission",
+    "chairman": "Mar Jacob Muricken",
+    "vice_chairmen": [
+      "Most Rev. Dr. Selvister Ponnumuthan",
+      "Yoohanon Mar Theodocious"
+    ],
+    "secretary": "Fr. Jose Vadakkekuttu"
+  },
+  {
+    "id": 15,
+    "commission_name": "Temperance Commission",
+    "chairman": "Yoohanon Mar Theodocious",
+    "vice_chairmen": [
+      "Most Rev. Sebastian Thekkethecheril",
+      "Most Rev. Dr. Christudas R"
+    ],
+    "secretary": "Rev. Fr. John Areekal"
+  },
+  {
+    "id": 16,
+    "commission_name": "Health Commission",
+    "chairman": "Mar George Njaralakkatt",
+    "vice_chairmen": [
+      "Most Rev. Dr. Alex Vadakkumthala",
+      "Mar Tony Neelankavil"
+    ],
+    "secretary": "Rev. Fr. Simon Pallupetta"
+  },
+  {
+    "id": 17,
+    "commission_name": "Vocation Commission",
+    "chairman": "Thomas Mar Koorilos",
+    "vice_chairmen": [
+      "Mar Joseph Perumthottom",
+      "Most Rev. Dr. James Anaparambil"
+    ],
+    "secretary": "Rev. Fr. Bijoy Augustine Marottickal"
+  },
+  {
+    "id": 18,
+    "commission_name": "Charismatic Commission",
+    "chairman": "Most Rev. Dr. Samuel Mar Irenios",
+    "vice_chairmen": [
+      "Most Rev. Dr. Alex Vadakkumthala",
+      "Mar Jose Pulickal"
+    ],
+    "secretary": "Rev. Fr. Joseph Thamaraveli"
+  },
+  {
+    "id": 19,
+    "commission_name": "Commission for Ecumenism & Dialogue",
+    "chairman": "Most Rev. Dr. Selvister Ponnumuthan",
+    "vice_chairmen": [
+      "Thomas Mar Koorilos",
+      "Mar Joseph Kallarangatt"
+    ],
+    "secretary": "Rev. Dr. Prasad Theruvath"
+  }
+],
+
+
+"commissions": [
+    {
+      "id":1,
+      "name": "Commission for Clergy",
+      "chairman": "Mar George Madathikandathil",
+      "episcopal_members": [
+        "Mar Thomas Tharayil",
+        "Mar Sebastian Pozholiparambil"
+      ],
+      "secretary": {
+        "name": "Rev. Fr. Joji Kallingal",
+        "email": "clergy2010@gmail.com",
+        "mobile": "94479 92216"
+      }
+    },
+    {
+      "id":2,
+      "name": "Commission for Doctrine",
+      "chairman": "Mar Tony Neelankavil",
+      "episcopal_members": [
+        "Mar Joseph Pamplany",
+        "Mar Jose Pulickal"
+      ],
+      "secretary": {
+        "name": "Rev. Fr. Sebastian Chalackal",
+        "email": "smdodrinalcommission@gmail.com",
+        "mobile": "94466 19266"
+      }
+    },
+    {
+      "id":3,
+      "name": "Commission for Ecumenism",
+      "chairman": "Mar Joseph Perumthottam",
+      "episcopal_members": [
+        "Mar Joseph Kodakallil",
+        "Mar Thomas Thuruthimattam CST"
+      ],
+      "secretary": {
+        "name": "Rev. Fr. Cherian Karukaparampil",
+        "mobile": "97454 21326"
+      }
+    },
+    {
+      "id":4,
+      "name": "Commission for Evangelization and Pastoral Care of Migrants",
+      "chairman": "Mar Raphael Thattil",
+      "episcopal_members": [
+        "Mar Sebastian Vadakel, MST",
+        "Mar Joseph Pandarasseril"
+      ],
+      "secretary": {
+        "name": "Fr. Sebastian Muttamthottil, MCBS",
+        "email": "sec2cepcm@gmail.com",
+        "mobile": [
+          "94957 72184",
+          "95399 18927"
+        ]
+      },
+      "website": "https://www.cepcm.org"
+    },
+    {
+      "id":5,
+      "name": "Commission for Family, Laity & Life",
+      "chairman": "Mar Joseph Kallarangatt",
+      "episcopal_members": [
+        "Mar Remigiose Inchananiyil",
+        "Mar Jose Pulickal"
+      ],
+      "secretary": {
+        "name": "Fr. Joby Moolayil",
+        "email": "smfllcommission@gmail.com",
+        "mobile": "94973 91968"
+      }
+    }
+
+
+  ],
+  "different_sections_of_commission":[
+
+     {
+      "id":1,
+      "name": "Commission for Finance",
+      "chairman": "Mar Mathew Arackal",
+      "episcopal_members": [
+        "Mar Antony Kariyil CMI",
+        "Mar Raphael Thattil"
+      ],
+      "secretary": {
+        "name": "Fr. Joseph Tholanickal",
+        "email": "financeofficer.mount@gmail.com",
+        "telephone": "0484 2426234"
+      }
+    },
+    {
+      "id":2,
+      "name": "Commission for Institutes of Apostolic Life",
+      "chairman": "Mar Jose Porunnedom",
+      "episcopal_members": [
+        "Mar Lawrence Mukkuzhy",
+        "Mar Jose Chittooparambil CMI"
+      ],
+      "secretary": {
+        "name": "Fr. Sebastian Muttamthottil MCBS",
+        "email": "smreligious@gmail.com",
+        "mobile": [
+          "94957 72184",
+          "95399 18927"
+        ]
+      }
+    },
+    {
+      "id":3,
+      "name": "Commission for Liturgy",
+      "chairman": "Mar Thomas Elavanal MCBS",
+      "episcopal_members": [
+        "Mar Pauly Kannookadan",
+        "Mar George Madathikandathil"
+      ],
+      "secretary": {
+        "name": "Fr. Francis Pittappillil",
+        "email": "syromalabarliturgy@gmail.com",
+        "mobile": "94464 77924"
+      }
+    },
+    {
+      "id":4,
+      "name": "Commission for Media",
+      "chairman": "Mar Joseph Pamplany",
+      "episcopal_members": [
+        "Mar Pauly Kannookadan",
+        "Mar Sebastian Vaniyapurackal"
+      ],
+      "secretary": {
+        "name": "Fr. Alex Onampally",
+        "email": "smmcmount@gmail.com",
+        "mobile": "99461 62280"
+      }
+    },
+    {
+      "id":5,
+      "name": "Commission for Public Affairs",
+      "chairman": "Mar Andrews Thazhath",
+      "episcopal_members": [
+        "Mar Thomas Chakiath",
+        "Mar Remigiose Inchananiyil",
+        "Mar Joseph Pamplany",
+        "Mar Thomas Tharayil"
+      ],
+      "secretary": {
+        "name": "Fr. Abraham Kavilpurayidathil"
+      },
+      "assistant_secretary": {
+        "name": "Fr. James Kokkavayalil"
+      },
+      "contact": {
+        "email": "smcpacmount@gmail.com",
+        "mobile": [
+          "96564 67833",
+          "62382 14912"
+        ]
+      }
+    },
+    {
+      "id":6,
+      "name": "Commission for Vocation",
+      "chairman": "Mar Lawrence Mukkuzhy",
+      "episcopal_members": [
+        "Mar George Njaralakkatt",
+        "Mar Jacob Muricken"
+      ],
+      "secretary": {
+        "name": "Fr. Sebastian Muttamthottil MCBS",
+        "email": "smcvocationcommission@gmail.com",
+        "mobile": [
+          "94957 72184",
+          "95399 18927"
+        ]
+      },
+      "website": "https://www.smcvocationcommission.org"
+    },
+    {
+      "id":7,
+      "name": "Commission for Youth",
+      "chairman": "Mar Joseph Pandarasseril",
+      "episcopal_members": [
+        "Mar Jose Puthenveettil",
+        "Mar Ephrem Nariculam"
+      ],
+      "secretary": {
+        "name": "Fr. Jacob Chackathara",
+        "email": "smyglobal@gmail.com",
+        "mobile": "94478 68180"
+      }
+    }
+  ],
+
+
+   "C1_PROVINCE_OF_CHANGANACHERRY": [
+    {
+      "id": 1,
+      "diocese_name": "Changanacherry",
+      "date_established": "20 May 1887",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Joseph Perumthottam",
+          "designation": "Archbishop",
+          "secretary_contact": "94475 07393"
+        },
+        "auxiliary_bishop": {
+          "name": "Mar Thomas Tharayil",
+          "designation": "Auxiliary Bishop",
+          "secretary_contact": "94474 07724"
+        }
+      },
+      "address": {
+        "house_name": "Archbishop House",
+        "po_box": "PB No. 20",
+        "location": "Changanacherry",
+        "district": "Kottayam",
+        "pin_code": "686 101",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0481 2420040",
+          "0481 2420379",
+          "0481 2420614",
+          "90374 40040"
+        ],
+        "email": "chancellorchry@gmail.com",
+        "website": "www.archdiocesechanganacherry.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Palai",
+      "date_established": "25 July 1950",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Joseph Kallarangatt",
+          "designation": "Bishop",
+          "secretary_contact": "94474 08887"
+        },
+        "auxiliary_bishop": {
+          "name": "Mar Jacob Muricken",
+          "designation": "Auxiliary Bishop",
+          "secretary_contact": "85471 91411"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 18",
+        "po": "Pala P.O.",
+        "district": "Kottayam",
+        "pin_code": "686 575",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0482 2202000",
+          "0482 2211379"
+        ],
+        "email": "aramanapala@gmail.com",
+        "website": "www.palaidiocese.com"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Kanjirapally",
+      "date_established": "26 February 1977",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Jose Pulickal",
+          "designation": "Bishop",
+          "secretary_contact": "94466 92665"
+        },
+        "auxiliary_bishop": {
+          "name": "-",
+          "designation": "-",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 22",
+        "location": "Kanjirapally",
+        "district": "Kottayam",
+        "pin_code": "686 507",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "04828 202665",
+          "04828 202906",
+          "04828 202441 (R)"
+        ],
+        "email": "kplyeparchy@gmail.com",
+        "website": "www.kanjirapallydiocese.com"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Thuckalay",
+      "date_established": "11 November 1996",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar George Rajendran SDB",
+          "designation": "Bishop",
+          "secretary_contact": "94423 83282"
+        },
+        "auxiliary_bishop": {
+          "name": "-",
+          "designation": "-",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 12",
+        "po": "Thuckalay P.O.",
+        "district": "Kanyakumari",
+        "pin_code": "629 175",
+        "state": "Tamil Nadu"
+      },
+      "contacts": {
+        "telephone": [
+          "04651 250633"
+        ],
+        "email": 
+          ["thuckalaydiocese@yahoo.com", "diocesethuckalay@gmail.com"],
+        "website": "www.thuckalaydiocese.org"
+      }
+    }
+  ],
+
+  "PROVINCE_OF_TRICHUR" : [
+    {
+      "id": 1,
+      "diocese_name": "Trichur",
+      "date_established": "20 May 1887",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Andrews Thazhath",
+          "designation": "Archbishop",
+          "secretary_contact": "94463 81599"
+        },
+        "auxiliary_bishop": {
+          "name": "Mar Tony Neelankavil",
+          "designation": "Auxiliary Bishop",
+          "secretary_contact": "95440 03119"
+        }
+      },
+      "address": {
+        "house_name": "Catholic Archbishop's House",
+        "po_box": "PB No. 706",
+        "location": "Trichur",
+        "pin_code": "680 005",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0487 2333325",
+          "0487 2338203",
+          "0487 2333542"
+        ],
+        "email": "curiatcr@yahoo.com",
+        "website": "www.trichurarchdiocese.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Palghat",
+      "date_established": "27 June 1974",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Jacob Manathodath",
+          "designation": "Bishop",
+          "secretary_contact": "85478 86347"
+        },
+        "auxiliary_bishop": {
+          "name": "Mar Peter Kochupurackal",
+          "designation": "Bishop Elect",
+          "secretary_contact": "85472 74203"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's Office",
+        "po_box": "PB No. 4",
+        "location": "Noorani P.O.",
+        "district": "Palakkad",
+        "pin_code": "678 004",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0491 2515277",
+          "0491 2525129"
+        ],
+        "email": "diopgt@gmail.com",
+        "website": "www.palghatdiocese.org"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Irinjalakuda",
+      "date_established": "22 June 1978",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Pauly Kannookadan",
+          "designation": "Bishop",
+          "secretary_contact": "94009 86830"
+        },
+        "auxiliary_bishop": {
+          "name": "-",
+          "designation": "-",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Catholic Bishop's House",
+        "po_box": "PB No. 59",
+        "location": "Irinjalakuda P.O.",
+        "district": "Thrissur",
+        "pin_code": "680 121",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0480 2826830",
+          "0480 2826820",
+          "0480 2833560",
+          "0480 2833561"
+        ],
+        "email": "ijkbph@gmail.com",
+        "website": "www.irinjalakudadiocese.com"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Ramanathapuram",
+      "date_established": "18 January 2010",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Paul Alappatt",
+          "designation": "Bishop",
+          "secretary_contact": "94821 73518"
+        },
+        "auxiliary_bishop": {
+          "name": "-",
+          "designation": "-",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Catholic Bishop's House",
+        "care_of": "Holy Trinity Cathedral",
+        "road": "Trichy Road",
+        "location": "Ramanathapuram",
+        "district": "Coimbatore",
+        "pin_code": "641 045",
+        "state": "Tamil Nadu"
+      },
+      "contacts": {
+        "telephone": [
+          "0422 4221795"
+        ],
+        "email": "dioceseoframanathapuram@gmail.com",
+        "website": "www.ramanathapuramdiocese.com"
+      }
+    }
+  ],
+
+
+  "PROVINCE_OF_ERNAKULAM_ANGAMALY":[
+    {
+      "id": 1,
+      "diocese_name": "Ernakulam - Angamaly",
+      "date_established": "28 July 1896",
+      "bishops": {
+        "archbishop": {
+          "name": "Cardinal Mar George Alencherry",
+          "designation": "Major Archbishop",
+          "secretary_contact": "91887 14773"
+        },
+        "auxiliary_bishop": {
+          "name": "Mar Antony Kariyil CMI",
+          "designation": "Vicar of the Major Archbishop",
+          "secretary_contact": "70252 28662"
+        }
+      },
+      "address": {
+        "house_name": "Major Archbishop's House",
+        "location": "Ernakulam",
+        "po_box": "PB No. 2580",
+        "district": "Kochi",
+        "pin_code": "682 031",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0484 2352629",
+          "0484 2352906"
+        ],
+        "email": "curia@ernakulamarchdiocese.org",
+        "website": "www.ernakulamarchdiocese.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Kothamangalam",
+      "date_established": "29 July 1956",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar George Madathikandathil",
+          "designation": "Bishop",
+          "secretary_contact": "99955 71629"
+        },
+        "auxiliary_bishop": {
+          "name": "-",
+          "designation": "-",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 6",
+        "location": "Kothamangalam",
+        "pin_code": "686 691",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0485 2862236"
+        ],
+        "email": "bishophouseklm@gmail.com",
+        "website": "www.kothamangalamdiocese.org"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Idukki",
+      "date_established": "15 January 2003",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar John Nellikunnel",
+          "designation": "Bishop",
+          "secretary_contact": "94953 85263"
+        },
+        "auxiliary_bishop": {
+          "name": "-",
+          "designation": "-",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's Office",
+        "location": "Karimpan",
+        "po_box": "Manippara P.O.",
+        "district": "Idukki",
+        "pin_code": "685 602",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "04862 230204",
+          "04862 230226",
+          "04862 230150"
+        ],
+        "email": "curiaidukkidiocese@gmail.com",
+        "website": "www.idukkidiocese.org"
+      }
+    }
+  ],
+
+
+  "PROVINCE_OF_TELLICHERRY" :  [
+    {
+      "id": 1,
+      "diocese_name": "Tellicherry",
+      "date_established": "31 December 1953",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar George Njaralakatt",
+          "designation": "Bishop",
+          "secretary_contact": "94963 54843"
+        },
+        "auxiliary_bishop": {
+          "name": "Mar Joseph Pamplany",
+          "designation": "Archbishop elect",
+          "secretary_contact": "95627 37888"
+        }
+      },
+      "address": {
+        "house_name": "Archbishop's House",
+        "po_box": "PB No. 70",
+        "location": "Thalassery P.O.",
+        "district": "Kannur",
+        "pin_code": "670 101",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": ["0490 2341058"],
+        "email": "diocese@archdioceseoftellicherry.org",
+        "website": "www.archdioceseoftellicheny.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Mananthavady",
+      "date_established": "01 March 1973",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Jose Porunnedom",
+          "designation": "Bishop",
+          "secretary_contact": "98478 96876"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 1",
+        "location": "Mananthavady",
+        "pin_code": "670 645",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": ["04935 240735", "04935 240745"],
+        "email": "bphmtdy@gmail.com",
+        "website": "www.diocesemdy.org"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Thamarassery",
+      "date_established": "28 April 1986",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Remigiose Inchananiyil",
+          "designation": "Bishop",
+          "secretary_contact": "96455 73374"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 1",
+        "location": "Thamarassery P.O.",
+        "district": "Kozhikode",
+        "pin_code": "673 573",
+        "state": "Kerala"
+      },
+      "contacts": {
+        "telephone": [
+          "0495 2223376",
+          "0495 2222569",
+          "0495 2223136",
+          "0495 2223504"
+        ],
+        "email": "diocesetmy09@gmail.com",
+        "website": "www.dioceseofthamarassery.org"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Belthangady",
+      "date_established": "24 April 1999",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Lawrence Mukkuzhy",
+          "designation": "Bishop",
+          "secretary_contact": "82771 95937"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House, Udayanagar",
+        "po_box": "PB No. 13",
+        "location": "Belthangady",
+        "district": "D.K.",
+        "pin_code": "574 214",
+        "state": "Karnataka"
+      },
+      "contacts": {
+        "telephone": [
+          "08256 232439",
+          "08256 233975",
+          "08256 233498",
+          "08256 232496"
+        ],
+        "email": "chancerybgy@gmail.com",
+        "website": "www.belthangadydiocese.com"
+      }
+    },
+    {
+      "id": 5,
+      "diocese_name": "Bhadravathi",
+      "date_established": "29 August 2007",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Joseph Arumachadath MCBS",
+          "designation": "Bishop",
+          "secretary_contact": "94004 49917"
+        },
+        "additional_secretary": {
+          "contact": "81822 56549"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House, St. Joseph's Church",
+        "po_box": "Sagar Road",
+        "location": "Shimoga",
+        "pin_code": "577 204",
+        "state": "Karnataka"
+      },
+      "contacts": {
+        "telephone": [],
+        "email": "bhadravathidiocese@rediffmail.com",
+        "website": "www.bhadravathidiocese.org"
+      }
+    },
+    {
+      "id": 6,
+      "diocese_name": "Mandya",
+      "date_established": "18 January 2010",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Sebastian Adayanthrath",
+          "designation": "Bishop",
+          "secretary_contact": "94483 04299"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House, Diocese of Mandya",
+        "po_box": "Kalenahalli Post",
+        "location": "Mandya",
+        "pin_code": "571 402",
+        "state": "Karnataka"
+      },
+      "contacts": {
+        "telephone": ["08232 291050", "08232 291220"],
+        "email": "dioceseofmandya@gmail.com",
+        "website": "www.mandyadiocese.org"
+      }
+    }
+  ],
+
+
+  "EPARCHIES_IN_INDIA_OUTSIDE_METROPOLITAN_PROVINCES": [
+    {
+      "id": 1,
+      "diocese_name": "Adilabad",
+      "date_established": "23 June 1999",
+      "bishops":{
+      "archbishop": {
+        "name": "Mar Prince Antony Panengadan",
+        "secretary_contact": "94938 58133"
+      }
+    },
+      "address": {
+        "house_name": "Bishop's House",
+        "location": "12-601/1",
+        "po_box": "Mancherial P.O.",
+        "district": "Adilabad",
+        "pin_code": "504 208",
+        "state": "Andhra Pradesh"
+      },
+      "contacts": {
+        "telephone": ["87362 58262"],
+        "email": "bishopadilabaddiocesein@gmail.com",
+        "website": "www.adilabaddiocese.com"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Bijnor",
+      "date_established": "23 March 1972",
+      "bishops":{
+      "archbishop": {
+        "name": "Mar Vincent Nellaiparambil",
+        "secretary_contact": "94007 11410"
+      }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 1",
+        "city": "Kotdwar",
+        "district": "Pauri-Garhwal",
+        "pin_code": "246 149",
+        "state": "Uttarakhand"
+      },
+      "contacts": {
+        "telephone": ["01382 222231"],
+        "email": "bijnordiocese@gmail.com",
+        "website": "www.bijnordiocese.in"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Chanda",
+      "date_established": "29 July 1968",
+      "bishops":{
+      "archbishop": {
+        "name": "Mar Ephrem Nariculam",
+        "secretary_contact": "95456 41645"
+      }
+      },
+      "address": {
+        "house_name": "Bishop's Home",
+        "po_box": "Ballapur P.O.",
+        "city": "Chandrapur",
+        "pin_code": "442 701",
+        "state": "Maharashtra",
+        "location": "India"
+      },
+      "contacts": {
+        "phone": ["07172 240537"],
+        "email": "bishopchanda@gmail.com",
+        "website": "www.dioceseofchanda.oig"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Faridabad",
+      "date_established": "6 March 2012",
+      "bishops":{
+      "archbishop": {
+        "name": "Mar Kuriakose Bharanikulangara",
+        "secretary_contact": "79071 57553"
+      },
+      "auxiliary_bishop": {
+        "name": "Mar Jose Puthenveettil",
+        "residence": "PRACHODANA, Mary Matha Syro Malabar Catholic Church",
+        "address": "B XI 2287/28, Street No.1, New Mohan Singh Nagar, Ludhiana 141 008, Punjab"
+      }
+      },
+      "address": {
+        "house_name": "Archbishop's House",
+        "po_box": "IB/32 N.E.A., Old Rajender Nagar",
+        "city": "New Delhi",
+        "pin_code": "110 060",
+        "state": "Delhi"
+      },
+      "contacts": {
+        "telephone": ["011 25759160", "011 25812346"],
+        "email": "faridabaddiocese@gmail.com",
+        "website": "www.faridabaddiocese.in"
+      }
+    },
+    {
+      "id": 5,
+      "diocese_name": "Gorakhpur",
+      "date_established": "19 June 1984",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Thomas Thuruthimattam CST",
+        "secretary_contact": "94522 48271"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "district": "Civil Lines",
+        "po_box": "University P.O.",
+        "location": "Gorakhpur",
+        "pin_code": "273 009",
+        "state": "Uttar Pradesh"
+      },
+      "contacts": {
+        "telephone": ["0551 2332723", "0551 2342357"],
+        "email": "dioceseofgorakhpur@gmail.com",
+        "website": "www.dioceseofgorakhpur.org"
+      }
+    },
+    {
+      "id": 6,
+      "diocese_name": "Hosur",
+      "date_established": "09 October 2017",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Sebastian Pozholiparambil",
+        "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's Office, St. Thomas Pastoral Centre",
+        "location": "16 Ayanavaram Road, Ayanavaram",
+        "district": "Chennai",
+        "pin_code": "600 023",
+        "state": "Tamilnadu"
+      },
+      "contacts": {
+        "phone": ["0442 6444183", "89438 51311"],
+        "email": "hosurdiocese@gmail.com",
+        "website": "www.hosurdiocese.in"
+      }
+    },
+    {
+      "id": 7,
+      "diocese_name": "Jagdalpur",
+      "date_established": "23 March 1972",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Joseph Kollamparampil CMI",
+        "secretary_contact": "78799 52543"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "Lal-Bagh",
+        "po_box": "Jagdalpur P.O.",
+        "district": "Bastar",
+        "pin_code": "494 001",
+        "state": "Chhattisgarh"
+      },
+      "contacts": {
+        "telephone": ["07782 228293", "07782 228307"],
+        "email": "jagdalpurbishop@gmail.com",
+        "website": "-"
+      }
+    },
+    {
+      "id": 8,
+      "diocese_name": "Kalyan",
+      "date_established": "30 April 1988",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Thomas Elavanal MCBS",
+        "secretary_contact": "94212 32834"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "location": "B/38",
+        "po_box": "Powai, IIT P.O.",
+        "city": "Mumbai",
+        "pin_code": "400 076",
+        "state": "Maharashtra"
+      },
+      "contacts": {
+        "telephone": ["022 25785515", "022 25782385"],
+        "email": "eparchyofkalyan@gmail.com",
+        "website": "www.kalyandiocese.com"
+      }
+    },
+    {
+      "id": 9,
+      "diocese_name": "Rajkot",
+      "date_established": "26 February 1977",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Jose Chittooparambil CMI",
+        "secretary_contact": "94285 90552"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 1501",
+        "location": "Kalawad Road",
+        "city": "Rajkot",
+        "pin_code": "360 005",
+        "state": "Gujarat"
+      },
+      "contacts": {
+        "telephone": ["0281 2563891", "0281 2563004", "0281 2563415", "0281 2563203"],
+        "email": "rajkotbishop@gmail.com",
+        "website": "www.rajkotdiocese.org"
+      }
+    },
+    {
+      "id": 10,
+      "diocese_name": "Sagar",
+      "date_established": "29 July 1968",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar James Athikalam MST",
+        "secretary_contact": "95169 00174"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 32",
+        "location": "Sagar Cantt.",
+        "pin_code": "470 001",
+        "state": "Madhya Pradesh"
+      },
+      "contacts": {
+        "telephone": ["07582 222633", "07582 232588", "07582 222175"],
+        "email": "sagardiocese@yahoo.com",
+        "website": "www.sagardiocese.com"
+      }
+    },
+    {
+      "id": 11,
+      "diocese_name": "Satna",
+      "date_established": "29 July 1968",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Joseph Kodakallil",
+        "secretary_contact": "89890 62544"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 22",
+        "location": "Rewa Road",
+        "city": "Satna",
+        "pin_code": "485 001",
+        "state": "Madhya Pradesh"
+      },
+      "contacts": {
+        "telephone": ["07672 224167"],
+        "email": "satnadiocese@gmail.com",
+        "website": "www.satnadiocese.org"
+      }
+    },
+    {
+      "id": 12,
+      "diocese_name": "Shamshabad",
+      "date_established": "10 October 2017",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Raphael Thattil",
+        "secretary_contact": "98696 85140"
+        }
+      },
+      "address": {
+        "house_name": "Eparchial Curia, St. Mary's Syro Malabar Church",
+        "location": "Sy No. 76/60-62, Opp. Manchi School, Keshogiri P.O., RCI Road, Balapur",
+        "district": "Ranga Reddy",
+        "pin_code": "500 005",
+        "state": "Telangana"
+      },
+      "contacts": {
+        "telephone": ["86396 21346"],
+        "email": "shamshabadeparchy@gmail.com",
+        "website": "www.shamshabaddiocese.org"
+      }
+    },
+    {
+      "id": 13,
+      "diocese_name": "Ujjain",
+      "date_established": "29 July 1968",
+      "bishops": {
+        "archbishop":{
+        "name": "Mar Sebastian Vadakel MST",
+        "secretary_contact": "94253 79845"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's House",
+        "po_box": "PB No. 234",
+        "location": "Ujjain",
+        "pin_code": "456 010",
+        "state": "Madhya Pradesh"
+      },
+      "contacts": {
+        "telephone": ["0734 2515970", "0734 2525523"],
+        "email": "dioceseofujjain@gmail.com",
+        "website": "www.ujjaindiocese.org"
+      }
+    }
+  ],
+
+   "EPARCHIES_OUTSIDE_INDIA": [
+    {
+      "id": 1,
+      "diocese_name": "Chicago",
+      "date_established": "13 March 2001",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Jacob Angadiath",
+          "secretary_contact": "+19168035307"
+        },
+        "auxiliary_bishop": {
+          "name": "Mar Joy Alappat",
+          "secretary_contact": "+19168035307"
+        }
+      },
+      "address": {
+        "house_name": "-",
+        "location": "372 S. Prairie Ave",
+        "city": "Elmhurst",
+        "state": "Illinois",
+        "pin_code": "60126-4020",
+        "country": "USA"
+      },
+      "contacts": {
+        "telephone": ["+16302791383", "+16302791386", "1384"],
+        "email": "curia@syromail.com",
+        "website": "www.stthomasdiocese.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Great Britain",
+      "date_established": "28 July 2016",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Joseph Srampickal",
+          "secretary_contact": "+447963765691"
+        }
+      },
+      "address": {
+        "house_name": "Bishop's Office, St. Alphonsa's Cathedral",
+        "location": "St. Ignatius Square",
+        "city": "Preston",
+        "district": "Lancashire",
+        "pin_code": "PR1 1TT",
+        "country": "United Kingdom"
+      },
+      "contacts": {
+        "telephone": ["+441772396065"],
+        "email": "smcuriagb@gmail.com",
+        "website": "www.eparchyofgreatbritain.org"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Melbourne",
+      "date_established": "23 December 2013",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Bosco Puthur",
+          "secretary_contact": "+61408267777"
+        }
+      },
+      "address": {
+        "house_name": "-",
+        "location": "6 Greenock Court",
+        "city": "Greenvale",
+        "state": "VIC",
+        "pin_code": "3059",
+        "country": "Australia"
+      },
+      "contacts": {
+        "telephone": ["+61394805379", "+61394805379"],
+        "email": "office@syromalabar.com.au",
+        "website": "www.syromalabar.org.au"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Mississauga",
+      "date_established": "06 August 2015",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Jose Kalluvelil",
+          "secretary_contact": "+16476802415"
+        }
+      },
+      "address": {
+        "house_name": "Syro Malabar Catholic Eparchy of Mississauga",
+        "location": "6630 Turner Valley Rd.",
+        "city": "Mississauga",
+        "state": "Ontario",
+        "pin_code": "L5N 2P1",
+        "country": "Canada"
+      },
+      "contacts": {
+        "telephone": ["+19058588200"],
+        "email": "bishop@syromalabarcanada.org",
+        "website": "www.syromalabarcanada.org"
+      }
+    }
+  ],
+
+  "APOSTOLIC_VISITATORS": [
+    {
+      "id": 1,
+      "diocese_name": "Apostolic Visitator for Syro Malabar Faithful in New Zealand",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Bosco Puthur",
+          "secretary_contact": "+16476802415"
+        }
+      },
+      "address": {
+        "house_name": "-",
+        "location": "-",
+        "city": "-",
+        "pin_code": "-",
+        "country": "New Zealand"
+      },
+      "contacts": {
+        "telephone": ["+61383133678"],
+        "email": [
+          "chaplainsm.nz@gmail.com",
+          "bishop@syromalabar.org.au"
+        ],
+        "website": "www.asmcm.org.nz"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Apostolic Visitator for Syro Malabar Faithful in Europe",
+      "bishops": {
+        "archbishop": {
+          "name": "Mar Stephen Chirappanath",
+          "secretary_contact": "+393338594119"
+        }
+      },
+      "address": {
+        "house_name": "Domus Mar Thoma, Casa di Procura della Chiesa Siro Malabarese",
+        "location": "Via degli Estensi, 137",
+        "city": "Rome",
+        "pin_code": "00164",
+        "country": "Italy"
+      },
+      "contacts": {
+        "telephone": ["+39064820028", "+393290918864"],
+        "email": "apvisitsmfeurope@gmail.com",
+        "website": "-"
+      }
+    }
+  ],
+
+
+  "PROVINCE_OF_THIRUVANANTHAPURAM": [
+    {
+      "id": 1,
+      "diocese_name": "Trivandrum",
+      "bishops": {
+        "archbishop": {
+          "name": "His Beatitude Moran Mor Baselios Cleemis Catholicos",
+          "designation": "Major Archbishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Major Archbishop’s House, Thirusannidhi",
+        "location": "Pattam",
+        "city": "Thiruvananthapuram",
+        "pin_code": "695004",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04712541642",
+          "04712541643",
+          "04712540446"
+        ],
+        "email": "archbp03@md3.vsnl.net.in",
+        "website": "www.malankaracatholicchurch.net"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Marthandom",
+      "bishops": {
+        "archbishop": {
+          "name": "Vincent Mar Paulose",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Catholic Bishop’s House",
+        "location": "Vettuvenni Junction",
+        "city": "Marthandom",
+        "pin_code": "629165",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04651270180",
+          "04651271722"
+        ],
+        "email": "bpdiomarmardio@gmail.com",
+        "website": "www.marthandomdiocese.org"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Mavelikara",
+      "bishops": {
+        "archbishop": {
+          "name": "Joshuva Mar Ignathios",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Amalagiri Catholic Bishop’s House",
+        "location": "Punnamoodu",
+        "city": "Mavelikara",
+        "pin_code": "690101",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04792344081",
+          "04792344082"
+        ],
+        "email": "marignathios@yahoo.co.in",
+        "website": "www.mavelikaradiocese.org"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Pathanamthitta",
+      "bishops": {
+        "archbishop": {
+          "name": "Samuel Mar Irenios",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Santhome Catholic Bishop’s House",
+        "location": "-",
+        "city": "Pathanamthitta",
+        "pin_code": "689645",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04682223100",
+          "04682223200"
+        ],
+        "email": "bpdiopta@gmail.com",
+        "website": "www.pathanamthittadiocese.com"
+      }
+    },
+    {
+      "id": 5,
+      "diocese_name": "Parassala",
+      "bishops": {
+        "archbishop": {
+          "name": "Thomas Mar Eusebius",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Catholic Bishop's House",
+        "location": "Kadayal, Ayira P.O.",
+        "city": "Parassala",
+        "pin_code": "695502",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04712205834"
+        ],
+        "email": "diocese.parassala@gmail.com",
+        "website": "-"
+      }
+    }
+  ],
+
+  "PROVINCE_OF_TIRUVALLA": [
+    {
+      "id": 1,
+      "diocese_name": "Tiruvalla",
+      "bishops": {
+        "archbishop": {
+          "name": "Thomas Mar Koorilos",
+          "designation": "Archbishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Archbishop’s House, Marygiri",
+        "location": "PB No. 4",
+        "city": "Tiruvalla",
+        "pin_code": "689101",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04692701319",
+          "04692730620"
+        ],
+        "email": "archtvla@gmail.com",
+        "website": "www.catholicarchioceseofthiruvalla.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Bathery",
+      "bishops": {
+        "archbishop": {
+          "name": "Joseph Mar Thomas",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Catholic Bishop’s House",
+        "location": "Dharmapitam",
+        "city": "Sultan Bathery",
+        "pin_code": "673592",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04936220207"
+        ],
+        "fax": "04936221287",
+        "email": "dsmbathery@gmail.com",
+        "website": "www.dioceseofbathery.com"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Muvattupuzha",
+      "bishops": {
+        "archbishop": {
+          "name": "Yoohanon Mar Theodosius",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Vimalagiri Bishop’s House",
+        "location": "Mudavoor P.O.",
+        "city": "Muvattupuzha",
+        "pin_code": "686669",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04852812650"
+        ],
+        "email": "diocesemvpa@gmail.com",
+        "website": "www.muvattupuzhadiocese.com"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Puttur",
+      "bishops": {
+        "archbishop": {
+          "name": "Geevarghese Mar Makarios",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Catholic Bishop’s House",
+        "location": "Parladka",
+        "city": "Puttur",
+        "pin_code": "574023",
+        "state": "Karnataka",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "08251238538"
+        ],
+        "email": "bishopptr@gmail.com",
+        "website": "www.dioceseofputtur.com"
+      }
+    }
+  ],
+
+   "PROVINCE_OF_VERAPOLY": [
+    {
+      "id": 1,
+      "diocese_name": "Verapoly",
+      "bishops": {
+        "archbishop": {
+          "name": "Most Rev. Dr. Joseph Kalathiparambil",
+          "designation": "Archbishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Latin Archbishop’s House",
+        "location": "PB No. 2581",
+        "city": "Kochi",
+        "pin_code": "682031",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04842372892",
+          "04842360988"
+        ],
+        "email": [
+          "vpoly@vsnl.com",
+          "mail@verapoly.in"
+        ],
+        "website": "www.verapolyarchdiocese.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Cochin",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Joseph Kariyil",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "Fort Cochin",
+        "city": "Cochin",
+        "pin_code": "682001",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04842215400",
+          "04842215401",
+          "04842215402"
+        ],
+        "email": "josephkariyil@sancharnet.in",
+        "website": "www.dioceseotcochin.org"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Kozhikode",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Varghese Chackalackal",
+          "designation": "Bishop",
+          "secretary_contact": "9847537693"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "Malaparamba",
+        "city": "Kozhikode",
+        "pin_code": "673009",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04952370313",
+          "04952376648"
+        ],
+        "fax": "04952377013",
+        "email": "calicut_diocese@yahoo.com",
+        "website": "www.calicutdiocese.org"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Alappuzha",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. James Raphael Anaparambil",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "PB No. 4804",
+        "city": "Alappuzha",
+        "pin_code": "688012",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04772243363",
+          "04772244011"
+        ],
+        "email": "bpstephe2009@gmail.com",
+        "website": "-"
+      }
+    },
+    {
+      "id": 5,
+      "diocese_name": "Kottapuram",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Dr. Joseph Karikkassery",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "Kottapuram P.O.",
+        "city": "-",
+        "pin_code": "680667",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04802802165"
+        ],
+        "email": "bpkarakkassery@gmail.com",
+        "website": "www.kottapuramdiocese.org"
+      }
+    },
+    {
+      "id": 6,
+      "diocese_name": "Kannur",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Alex Vadakkumthala",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "Chovva",
+        "city": "Kannur",
+        "pin_code": "670006",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04972729977",
+          "04972729988"
+        ],
+        "email": "cnn_diocese@sancharnet.in",
+        "website": "-"
+      }
+    },
+    {
+      "id": 7,
+      "diocese_name": "Sultanpet",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Dr. Peter Abir Antonysamy",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "Near SKM Auditorium, Chedayankalai, Kanjikode West",
+        "city": "Palakkad",
+        "pin_code": "678632",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04912803420",
+          "04912803421"
+        ],
+        "email": "sultanpetdiocese@gmail.com",
+        "website": "www.sultanpetdiocese.org"
+      }
+    }
+  ],
+
+    "PROVINCE_OF_TRIVANDRUM_LATIN": [
+    {
+      "id": 1,
+      "diocese_name": "Trivandrum",
+      "bishops": {
+        "archbishop": {
+          "name": "Most Rev. Dr. Thomas J Netto",
+          "designation": "Archbishop",
+          "secretary_contact": "-"
+        },
+        "auxiliary_bishop": {
+          "name": "Rt. Rev. Christudas Rajappan",
+          "designation": "Auxiliary Bishop"
+        }
+      },
+      "address": {
+        "house_name": "Archbishop’s House",
+        "location": "PB No. 17, Kowdiar P.O., Vellayambalam",
+        "city": "Thiruvananthapuram",
+        "pin_code": "695003",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04712724001",
+          "04712724002"
+        ],
+        "email": "archbishop@archtvm.in",
+        "website": "www.latinarchdiocesetrivandrum.org"
+      }
+    },
+    {
+      "id": 2,
+      "diocese_name": "Kollam",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Paul Antony Mullassery",
+          "designation": "Bishop",
+          "secretary_contact": "9847091840"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "Thangasseri P.O.",
+        "city": "Kollam",
+        "pin_code": "691007",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04742796140"
+        ],
+        "email": "-",
+        "website": "www.quilondiocese.org"
+      }
+    },
+    {
+      "id": 3,
+      "diocese_name": "Vijayapuram",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Sebastian Thekkethecheril",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Vijayapuram Bishop’s House",
+        "location": "PB No. 82",
+        "city": "Kottayam",
+        "pin_code": "686001",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04812563747"
+        ],
+        "email": "bptcheril@gmail.com",
+        "website": "-"
+      }
+    },
+    {
+      "id": 4,
+      "diocese_name": "Punaloor",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Selvister Ponnumuthan",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "PB No. 48",
+        "city": "Punaloor",
+        "pin_code": "691305",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04752225419"
+        ],
+        "email": "selvister.ponnu@gmail.com",
+        "website": "-"
+      }
+    },
+    {
+      "id": 5,
+      "diocese_name": "Neyyatinkara",
+      "bishops": {
+        "archbishop": {
+          "name": "Rt. Rev. Vincent Samuel",
+          "designation": "Bishop",
+          "secretary_contact": "-"
+        }
+      },
+      "address": {
+        "house_name": "Bishop’s House",
+        "location": "PB No. 7, Aralummood P.O.",
+        "city": "Neyyatinkara",
+        "pin_code": "695123",
+        "state": "Kerala",
+        "country": "India"
+      },
+      "contacts": {
+        "telephone": [
+          "04712223133",
+          "04712220693"
+        ],
+        "email": "ntabishopshous@yahoo.co.in",
+        "website": "-"
+      }
+    }
+  ]
+
+ 
+
+
+}

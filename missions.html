@@ -225,7 +225,7 @@ body {
       <li><a href="institutes.html">Institutes of Consecrated Life & Societies of Apostolic Life</a></li>
       <li><a href="departments.html">Departments</a></li>
       <li><a href="#">Missions</a></li>
-      <li><a href="#">Saints from the Archeparchy</a></li>
+      <li><a href="Generalinfo.html">General Informations</a></li>
     </ul>
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
   </nav>
@@ -540,6 +540,9 @@ to November 13, 2017. Rev. Fr. Paul Peediyekkal was appointed priest in charge o
 Jaipur mission on November 13, 2017. After that, Fr. Varghese Punnakalayil, Fr. Joseph
 Pulickaparampil, Fr. Philip Moozhikunnel and Fr. George Mannumadom were also appointed
 in the mission. On 20 February 2022 Holy Family Syro Malabar Church was consecreted. </p>
+
+
+
 
 <br><br>
 
@@ -1131,7 +1134,7 @@ const districts = [
 
 let chart, data;
 
-/* 🔹 RESPONSIVE OPTIONS */
+/* RESPONSIVE OPTIONS */
 function getChartOptions() {
   const isMobile = window.innerWidth ;
   return {
@@ -1145,7 +1148,7 @@ function getChartOptions() {
   };
 }
 
-/* 🔹 INIT CHART */
+/*  INIT CHART */
 function initChart() {
   data = google.visualization.arrayToDataTable([
     ['Category', 'Population'],
@@ -1159,22 +1162,22 @@ function initChart() {
 
   chart.draw(data, getChartOptions());
 
-  /* ✅ AUTO CLICK ALWAR */
+  /* AUTO CLICK ALWAR */
   setTimeout(() => {
     selectDistrict(0);
 
-    /* 🔥 FORCE FULL-SIZE RENDER AFTER AUTO CLICK */
+    /*  FORCE FULL-SIZE RENDER AFTER AUTO CLICK */
     forceRedrawChart();
   }, 300);
 }
 
 
-/* 🔹 EASING */
+/*  EASING */
 function easeInOut(t) {
   return t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3)/2;
 }
 
-/* 🔹 ANIMATION */
+/*  ANIMATION */
 function animateDistrictPopulation(index) {
   const d = districts[index];
   const targetChristian = Math.round(d.population * d.christian);
@@ -1203,7 +1206,7 @@ function animateDistrictPopulation(index) {
   }, 30);
 }
 
-/* 🔹 SELECT DISTRICT */
+/*  SELECT DISTRICT */
 function selectDistrict(index) {
   const d = districts[index];
   animateDistrictPopulation(index);
@@ -1216,7 +1219,7 @@ function selectDistrict(index) {
      <b>Non-Christians:</b> ${(d.population - Math.round(d.population * d.christian)).toLocaleString()}🔴`;
 }
 
-/* 🔹 BUILD LIST AFTER DOM LOAD */
+/*  BUILD LIST AFTER DOM LOAD */
 document.addEventListener('DOMContentLoaded', () => {
   const list = document.getElementById('districtList');
   districts.forEach((d, i) => {
@@ -1230,7 +1233,7 @@ document.addEventListener('DOMContentLoaded', () => {
   google.charts.setOnLoadCallback(initChart);
 });
 
-/* 🔹 REDRAW ON RESIZE */
+/* REDRAW ON RESIZE */
 window.addEventListener('resize', () => {
   if (chart && data) chart.draw(data, getChartOptions());
 });
